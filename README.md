@@ -3,8 +3,9 @@ Thanks for your interest in Primephonic and for taking the time to do our Androi
 
 ## Task
 Your task is to write an Android application which displays some basic information of flights currently in the air. For this, we'll be using the `OpenSky Network` public API:
-Details can be found here: `https://opensky-network.org/apidoc/rest.html`
-Only the following endpoint should be used: `GET /flights/all`
+
+- API Documentation can be found here: `https://opensky-network.org/apidoc/rest.html`
+- Only the following endpoint should be used: `GET /flights/all`
 
 The application should be made up of 2 screens:
 
@@ -22,16 +23,16 @@ This screen should display the history of updates for this particular aircraft, 
 The assignment will be evaluated based on the following points:
 
 1. Code organization
-Is the code well organized, easy to follow, well-structured, etc.? Think responsibilities, separation of concerns.
+<br/>Is the code well organized, easy to follow, well-structured, etc.? Think responsibilities, separation of concerns.
 
 2. Performance
-The API might return a single aircraft, or thousands. Your application should be able to handle all scenarios seamlessly.
+<br/>The API might return a single aircraft, or thousands. Your application should be able to handle all scenarios seamlessly.
 
 3. Compliance
-Does the application satisfy the described use cases?
+<br/>Does the application satisfy the described use cases?
 
 4. Simplicity
-Don't over-engineer it. If you feel like you're taking shortcuts you're not comfortable with, go with the simple solution and later explain how you would do it differently in a real production app in the `README.md`.
+<br/>Don't over-engineer it. If you feel like you're taking shortcuts you're not comfortable with, go with the simple solution and later explain how you would do it differently in a real production app in the `README.md`.
 
 ## Technologies
 The assignment should be developed in `Kotlin` and using the `Android SDK`. Third party libraries are allowed.
